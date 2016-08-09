@@ -1,0 +1,155 @@
+@media (min-width: 768px) {
+    h1 { font-size: 2.5em; }
+    h2 { font-size: 1.95em; }
+    h3 { font-size: 1.65em; }
+    h4 { font-size: 1.28em; }
+    h5 { font-size: 1.15em; }
+    h6 { font-size: 1.05em; }
+    .s_navbar {
+        height:100%;
+        position: fixed;
+        top:0;
+        left:3%;  
+        width:13%;
+        max-width:150px;
+        min-width:150px; 
+        background: -moz-linear-gradient(top,  rgba(0,0,0,0.29) 0%, rgba(0,0,0,0) 78%, rgba(0,0,0,0) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.29)), color-stop(78%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0)));
+        background: -webkit-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
+        background: -o-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
+        background: -ms-linear-gradient(top,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
+        background: linear-gradient(to bottom,  rgba(0,0,0,0.29) 0%,rgba(0,0,0,0) 78%,rgba(0,0,0,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a000000', endColorstr='#00000000',GradientType=0 );
+    }
+    .s_navbar .logo {
+        padding:28px 0 20px 0;
+        background: none;
+    }
+    .s_navbar .main-menu {
+        display: block;
+        margin: 8px 0;
+        background: none;
+        font-size: 0.9em;
+        line-height: 1;            
+    } 
+    .s_navbar .main-menu li a,
+    .s_navbar .main-menu li span {
+        padding:7px 10px;
+    }   
+    .s_main-content {
+        margin: 0 0 0 22%;
+        height: 100%;
+    } 
+    .s_main-content .section-wrapper {
+        width: 100%;
+        min-height: 100%;
+    }     
+    .s_main-content .section-wrapper.modified-height {
+        height:100%;
+    } 
+    .s_main-content .section-wrapper .content-wrapper:last-of-type {
+        padding-bottom: 0;
+    }    
+    .s_main-content .section-wrapper .content-wrapper:first-of-type {
+        padding-top: 0;
+    }
+    .s_main-content .section-wrapper .content-wrapper {
+        position: absolute;
+        right: 0;
+        bottom: 16%;
+        text-align: right;
+        padding: 0;
+        background: none;
+    }
+    .right {
+        float: right !important;
+    }
+    .s_main-content .feature-text {
+        font-size: 1.18em;
+    }
+    .s_main-content .feature-text h1 {
+        font-size: 2.25em;
+    }
+    .s_main-content .feature-text h2 {
+        font-size: 1.9em;
+    }
+    .s_main-content .feature-text h3 {
+        font-size: 1.65em;
+    }
+    .s_main-content .feature-text h4 {
+        font-size: 1.35em;
+    }
+    .s_main-content .feature-text h5 {
+        font-size: 1.22em;
+    }
+    .s_main-content .feature-text h6 {
+        font-size: 1.1em;
+    }
+    .s_main-content .btn-lg {
+        font-size: 0.95em;
+    }
+    .s_main-content .feature-text .btn-lg {
+        font-size: 0.7em;
+    }
+    #footer {
+        position: fixed;
+        bottom: 10px;
+        left: 3%;
+        margin:10px 0;
+        width:13%;
+        max-width:150px;
+        min-width:150px;
+        text-align: center;
+        background:none;
+        z-index: 0;
+        padding: 0;
+    }
+    #go-to-top {
+        left:5px;
+        right:auto;
+    }
+}
+@media (min-width: 992px) {
+    h1 { font-size: 3.1em; }
+    h2 { font-size: 2.4em; }
+    h3 { font-size: 2em; }
+    h4 { font-size: 1.6em; }
+    h5 { font-size: 1.3em; }
+    h6 { font-size: 1.1em; }
+    .s_navbar {
+        left:6.5%;  
+        width:13%;
+        max-width:205px;
+        min-width:190px;
+    }
+    .s_navbar .logo {
+        padding:42px 0 30px 0;
+    }
+    .s_navbar .main-menu {
+        margin: 12px 0;
+        font-size: 1.02em;
+        line-height: 1;              
+    }
+    .s_main-content {
+        margin: 0 0 0 24.5%;
+    }
+    .s_main-content .section-wrapper .content-wrapper { 
+        }
+    .s_main-content .feature-text {
+        font-size: 1.44em;
+    }
+    .s_main-content .btn-lg {
+    font-size: 1.05em;
+    }
+    #footer {
+        left:6.5%;  
+        max-width:205px;
+        min-width:190px; 
+    }   
+}
+    
+
+@media (min-width: 1200px) {
+    
+}
+  
